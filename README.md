@@ -13,6 +13,9 @@ Welcome to **Trip-Saathi**, your ultimate AI-based trip planner! Whether you're 
 - **Google OAuth Integration**: Easy and secure login with **Google OAuth**.
 - **Responsive Design**: Built with **React** and **Vite**, Trip-Saathi is fully responsive and works flawlessly on all devices.
 - **Tailwind CSS**: A modern, utility-first CSS framework for a sleek and responsive UI.
+- **Interactive Maps & Booking:**:
+-**1.Directions:** Click on any place to get directions on Google Maps.
+--**2. Hotel Booking:** Click on any hotel to book directly from your preferred booking site (e.g., Booking.com, Airbnb, etc.).
 
 ---
 
@@ -35,8 +38,6 @@ Check out the live version of **Trip-Saathi** here: [https://trip-saathi.vercel.
 
 ## 🖼️ Screenshots
 
-![Trip-Saathi Homepage](https://via.placeholder.com/800x400.png?text=Trip-Saathi+Homepage)
-![Trip-Saathi Itinerary](https://via.placeholder.com/800x400.png?text=Trip-Saathi+Itinerary)
 ![image](https://github.com/user-attachments/assets/1b7292fc-64f1-4801-9502-55f40ba556a9)
 ![image](https://github.com/user-attachments/assets/97b90216-94f0-4b64-b541-539faf772973)
 ![image](https://github.com/user-attachments/assets/b6a08a3f-66b4-4194-ad4a-6f5305edcdc1)
@@ -76,11 +77,6 @@ To run Trip-Saathi locally, follow these steps:
    ```env
    VITE_HERE_API_KEY=your_here_api_key
    VITE_FIREBASE_API_KEY=your_firebase_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-   VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
-   VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-   VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
-   VITE_FIREBASE_APP_ID=your_firebase_app_id
    VITE_GOOGLE_OAUTH_CLIENT_ID=your_google_oauth_client_id
    ```
 
@@ -90,7 +86,7 @@ To run Trip-Saathi locally, follow these steps:
    ```
 
 5. **Open in Browser**:
-   Visit `http://localhost:3000` to see Trip-Saathi in action!
+   Visit `http://localhost:5173` to see Trip-Saathi in action!
 
 ---
 
